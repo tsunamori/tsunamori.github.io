@@ -3,23 +3,23 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Game of hacks 试玩 | Tsunamori&#39;s blog</title>
+    <title>代码审计 企业级web代码安全结构 | Tsunamori&#39;s blog</title>
     
     
-        <meta name="keywords" content="靶场">
+        <meta name="keywords" content="Notes">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="前言从Awesome-hacking_Cyber-skills看到的练习网站，粗略看了一下描述是关于代码审计的，正好一直在考虑提升一下代码审计的技能，最近就来试玩一下，顺便记录WP。 准备工作一开始有难度选项，分别是beginner、intermediate和advanced。嗯，十分正常的分类。另外要选代码语言，一共十种，我比较在意的Android、Java、PHP、Python、.NET都在，">
+    <meta name="description" content="苦于代码审计能力偏弱，调研一番发现这本书或许有所帮助。 第一部分 代码审计前的准备代码审计环境搭建 wamp&#x2F;wnmp: WAMP（Windows下的Apache+Mysql&#x2F;MariaDB+Perl&#x2F;PHP&#x2F;Python），WNMP（Windows下的Nginx+Mysql+PHP） lamp&#x2F;lnmp：将上述环境安装在Linux中。  PHP_INI_*常量的定义 PHP_INI_USER：该">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Game of hacks 试玩">
-<meta property="og:url" content="https://tsunamori.github.io/wiki/Game-of-hacks-%E8%AF%95%E7%8E%A9/index.html">
+<meta property="og:title" content="代码审计 企业级web代码安全结构">
+<meta property="og:url" content="https://tsunamori.github.io/wiki/Notes_%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-%E4%BC%81%E4%B8%9A%E7%BA%A7web%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8%E7%BB%93%E6%9E%84/index.html">
 <meta property="og:site_name" content="Tsunamori&#39;s blog">
-<meta property="og:description" content="前言从Awesome-hacking_Cyber-skills看到的练习网站，粗略看了一下描述是关于代码审计的，正好一直在考虑提升一下代码审计的技能，最近就来试玩一下，顺便记录WP。 准备工作一开始有难度选项，分别是beginner、intermediate和advanced。嗯，十分正常的分类。另外要选代码语言，一共十种，我比较在意的Android、Java、PHP、Python、.NET都在，">
+<meta property="og:description" content="苦于代码审计能力偏弱，调研一番发现这本书或许有所帮助。 第一部分 代码审计前的准备代码审计环境搭建 wamp&#x2F;wnmp: WAMP（Windows下的Apache+Mysql&#x2F;MariaDB+Perl&#x2F;PHP&#x2F;Python），WNMP（Windows下的Nginx+Mysql+PHP） lamp&#x2F;lnmp：将上述环境安装在Linux中。  PHP_INI_*常量的定义 PHP_INI_USER：该">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-07-15T08:44:14.000Z">
-<meta property="article:modified_time" content="2021-07-15T09:27:13.926Z">
+<meta property="article:published_time" content="2021-07-17T02:05:28.000Z">
+<meta property="article:modified_time" content="2021-08-03T10:00:19.085Z">
 <meta property="article:author" content="Tsunamori">
-<meta property="article:tag" content="靶场">
+<meta property="article:tag" content="Notes">
 <meta name="twitter:card" content="summary">
     
 
@@ -186,7 +186,7 @@
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                64
+                65
                 <span>posts</span>
             </div>
             <div class="article-info-block">
@@ -265,7 +265,7 @@
                             &nbsp;
                             119 Notes
                         </a>
-                         <ul class="unstyled" id="tree">  <li class="file"><a href="/wiki/Notes-for-HowToHunt-md/">Notes for HowToHunt.md</a></li>  <li class="file"><a href="/wiki/Notes_0-to-1-the-road-of-CTFer_1/">0 to 1 the road of CTFer 第一章 Web入门</a></li>  </ul> 
+                         <ul class="unstyled" id="tree">  <li class="file"><a href="/wiki/Notes_HowToHunt-md/">Notes for HowToHunt.md</a></li>  <li class="file"><a href="/wiki/Notes_0-to-1-the-road-of-CTFer_1/">0 to 1 the road of CTFer 第一章 Web入门</a></li>  </ul> 
                     </li> 
                      </ul> 
                     </li> 
@@ -337,9 +337,27 @@
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder-open"></i>
                             &nbsp;
+                            140 Code review 代码审计
+                        </a>
+                         <ul class="unstyled" id="tree"> 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            149 Notes
+                        </a>
+                         <ul class="unstyled" id="tree">  <li class="file active"><a href="/wiki/Notes_%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-%E4%BC%81%E4%B8%9A%E7%BA%A7web%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8%E7%BB%93%E6%9E%84/">代码审计 企业级web代码安全结构</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
                             140 Practices
                         </a>
-                         <ul class="unstyled" id="tree">  <li class="file active"><a href="/wiki/Game-of-hacks-%E8%AF%95%E7%8E%A9/">Game of hacks 试玩</a></li>  </ul> 
+                         <ul class="unstyled" id="tree">  <li class="file"><a href="/wiki/%E8%AF%95%E7%8E%A9Game-of-hacks/">Game of hacks 试玩</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/wiki/useful-books/">useful sources</a></li>  </ul> 
                     </li> 
@@ -442,7 +460,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title"><span>archives</span></h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/">May 2021</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a><span class="archive-list-count">56</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/">May 2021</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a><span class="archive-list-count">56</span></li></ul>
         </div>
     </div>
 
@@ -450,7 +468,7 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="post-Game-of-hacks-试玩" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-Notes_代码审计-企业级web代码安全结构" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -460,20 +478,20 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/100-Cyber-security/">100 Cyber security</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/100-Cyber-security/140-Practices/">140 Practices</a>
+        <a class="article-category-link" href="/categories/100-Cyber-security/">100 Cyber security</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/100-Cyber-security/140-Code-review-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/">140 Code review 代码审计</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/100-Cyber-security/140-Code-review-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/149-Notes/">149 Notes</a>
     </div>
 
                         
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link-link" href="/tags/%E9%9D%B6%E5%9C%BA/" rel="tag">靶场</a>
+        <a class="tag-link-link" href="/tags/Notes/" rel="tag">Notes</a>
     </div>
 
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/wiki/Game-of-hacks-%E8%AF%95%E7%8E%A9/">
-            <time datetime="2021-07-15T08:44:14.000Z" itemprop="datePublished">2021-07-15</time>
+        <a href="/wiki/Notes_%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-%E4%BC%81%E4%B8%9A%E7%BA%A7web%E4%BB%A3%E7%A0%81%E5%AE%89%E5%85%A8%E7%BB%93%E6%9E%84/">
+            <time datetime="2021-07-17T02:05:28.000Z" itemprop="datePublished">2021-07-17</time>
         </a>
     </div>
 
@@ -484,13 +502,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/raw/writing/source/_posts/Game-of-hacks-试玩.md"> Source </a>
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/raw/writing/source/_posts/Notes_代码审计-企业级web代码安全结构.md"> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/edit/writing/source/_posts/Game-of-hacks-试玩.md"> Edit </a>
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/edit/writing/source/_posts/Notes_代码审计-企业级web代码安全结构.md"> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/commits/writing/source/_posts/Game-of-hacks-试玩.md"> History </a>
+                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsunamori/Wiki-site/commits/writing/source/_posts/Notes_代码审计-企业级web代码安全结构.md"> History </a>
                             </div>
                         
                     </div>
@@ -498,7 +516,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            Game of hacks 试玩
+            代码审计 企业级web代码安全结构
         </h1>
     
 
@@ -511,24 +529,57 @@
             
                 <div id="toc" class="toc-article">
                 <strong class="toc-title">Catalogue</strong>
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">2.</span> <span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PHP-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1"><span class="toc-number">3.</span> <span class="toc-text">PHP 代码审计</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Beginner"><span class="toc-number">3.1.</span> <span class="toc-text">Beginner</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86-%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87"><span class="toc-number">1.</span> <span class="toc-text">第一部分 代码审计前的准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="toc-number">1.1.</span> <span class="toc-text">代码审计环境搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#PHP-INI-%E5%B8%B8%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-number">1.1.1.</span> <span class="toc-text">PHP_INI_*常量的定义</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%9A%E5%BD%B1%E5%93%8DPHP%E8%84%9A%E6%9C%AC%E5%AE%89%E5%85%A8%E7%9A%84%E9%85%8D%E7%BD%AE%E5%88%97%E8%A1%A8%E5%8F%8A%E6%A0%B8%E5%BF%83%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9"><span class="toc-number">1.1.2.</span> <span class="toc-text">会影响PHP脚本安全的配置列表及核心配置选项</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%A1%E8%AE%A1%E8%BE%85%E5%8A%A9%E4%B8%8E%E6%BC%8F%E6%B4%9E%E9%AA%8C%E8%AF%81%E5%B7%A5%E5%85%B7"><span class="toc-number">1.2.</span> <span class="toc-text">审计辅助与漏洞验证工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text">代码编辑器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E5%B7%A5%E5%85%B7"><span class="toc-number">1.2.2.</span> <span class="toc-text">代码审计工具</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BC%8F%E6%B4%9E%E9%AA%8C%E8%AF%81%E8%BE%85%E5%8A%A9"><span class="toc-number">1.2.3.</span> <span class="toc-text">漏洞验证辅助</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%BC%8F%E6%B4%9E%E5%8F%91%E7%8E%B0%E4%B8%8E%E9%98%B2%E8%8C%83"><span class="toc-number">2.</span> <span class="toc-text">漏洞发现与防范</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E7%94%A8%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E6%80%9D%E8%B7%AF"><span class="toc-number">2.1.</span> <span class="toc-text">通用代码审计思路</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%8F%E6%84%9F%E5%87%BD%E6%95%B0%E5%9B%9E%E6%BA%AF%E5%8F%82%E6%95%B0%E8%BF%87%E7%A8%8B"><span class="toc-number">2.1.1.</span> <span class="toc-text">敏感函数回溯参数过程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%9A%E8%AF%BB%E5%85%A8%E6%96%87%E4%BB%A3%E7%A0%81"><span class="toc-number">2.1.2.</span> <span class="toc-text">通读全文代码</span></a></li></ol></li></ol></li></ol>
                 </div>
             
         
         
-            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>从Awesome-hacking_Cyber-skills看到的练习网站，粗略看了一下描述是关于代码审计的，正好一直在考虑提升一下代码审计的技能，最近就来试玩一下，顺便记录WP。</p>
-<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>一开始有难度选项，分别是beginner、intermediate和advanced。嗯，十分正常的分类。另外要选代码语言，一共十种，我比较在意的Android、Java、PHP、Python、.NET都在，令人满意。<br>看了题目大概是每次随机抽五道题+计时+提供选项，所以WP就先简单记一下代码，最后整理思路。</p>
-<h3 id="PHP-代码审计"><a href="#PHP-代码审计" class="headerlink" title="PHP 代码审计"></a>PHP 代码审计</h3><h4 id="Beginner"><a href="#Beginner" class="headerlink" title="Beginner"></a>Beginner</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">int i;</span><br><span class="line">char inLine[64];</span><br><span class="line">cin &gt;&gt; inLine; &#x2F;&#x2F; 将cin的二进制码向右移动inLine位（或将cin十进制除以2 inLine次）,但是在这里没有用到。</span><br><span class="line">i &#x3D; atoi (inLine); &#x2F;&#x2F; atoi()：字符串转换整数</span><br><span class="line">sleep(i);</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Dim myPassWord As String</span><br><span class="line">myPassWord &#x3D; &quot;12345&quot;</span><br></pre></td></tr></table></figure>
-<p>use of hardcoded password</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Private Sub cmdRunNotePad_Click()</span><br><span class="line">Dim str As String</span><br><span class="line">MyVar &#x3D; window.Text()</span><br><span class="line">Sleep myVar+1</span><br><span class="line">dblNotePadID &#x3D; Sleep(myVar)</span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">$dn &#x3D; $_GET[&#39;host&#39;];</span><br><span class="line">$filter&#x3D;&quot;(|(sn&#x3D;$person*)(givenname&#x3D;$person*))&quot;;</span><br><span class="line">$justthese &#x3D; array(&quot;ou&quot;, &quot;sn&quot;, &quot;givenname&quot;, &quot;mail&quot;);</span><br><span class="line">$sr&#x3D;ldap_search($ds, $dn, $dn, $justthese);</span><br><span class="line">$info &#x3D; ldap_get_entries($ds, $sr);</span><br><span class="line">echo $info[&quot;count&quot;].&quot; entries returned</span><br><span class="line">&quot;;?&gt;</span><br></pre></td></tr></table></figure>
-<p>LDAP injection</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String url &#x3D; req.getRequestURL().toString();</span><br><span class="line">RequestDispatcher disp &#x3D; req.getRequestDispatcher(url.substring(url.lastIndexOf(req.getContextPath() + &quot;&#x2F;&quot;)</span><br><span class="line">+ req.getContextPath().length()));</span><br><span class="line">disp.forward(request, response);</span><br></pre></td></tr></table></figure>
+            <p>苦于代码审计能力偏弱，调研一番发现这本书或许有所帮助。</p>
+<h2 id="第一部分-代码审计前的准备"><a href="#第一部分-代码审计前的准备" class="headerlink" title="第一部分 代码审计前的准备"></a>第一部分 代码审计前的准备</h2><h3 id="代码审计环境搭建"><a href="#代码审计环境搭建" class="headerlink" title="代码审计环境搭建"></a>代码审计环境搭建</h3><ol>
+<li>wamp/wnmp: WAMP（Windows下的Apache+Mysql/MariaDB+Perl/PHP/Python），WNMP（Windows下的Nginx+Mysql+PHP）</li>
+<li>lamp/lnmp：将上述环境安装在Linux中。</li>
+</ol>
+<h4 id="PHP-INI-常量的定义"><a href="#PHP-INI-常量的定义" class="headerlink" title="PHP_INI_*常量的定义"></a>PHP_INI_*常量的定义</h4><ol>
+<li>PHP_INI_USER：该配置选项可在用户的PHP脚本或Win注册表中设置。</li>
+<li>PHP_INI_PERDIR：该配置选项可在php.ini. .htaccess或httpd.conf中设置。</li>
+<li>PHP_INI_SYSTEM：该配置选项可在任何地方设置。</li>
+<li>PHP_INI_ALL：该配置选项可在任何地方设置。</li>
+<li>php.ini only：该配置选项可仅可在php.ini中配置。</li>
+</ol>
+<h4 id="会影响PHP脚本安全的配置列表及核心配置选项"><a href="#会影响PHP脚本安全的配置列表及核心配置选项" class="headerlink" title="会影响PHP脚本安全的配置列表及核心配置选项"></a>会影响PHP脚本安全的配置列表及核心配置选项</h4><ol>
+<li>register_globals(全局变量注册开关)：该选项在on的情况下，会将用户GET/POST等方式提交上来的参数注册成全局变量并初始化值为参数对应的值，使提交参数可以直接在脚本中使用。register_globals在PHP版本小于等于4.2.3时设置为PHP_INI_ALL，从PHP5.3.0起被废弃，在PHP5.4.0中被移除。<br> 代码实例：(实验环境php5.2.17,在php.ini中添加register_globals = On) <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">if($user&#x3D;&#x3D;&#39;admin&#39;)&#123;</span><br><span class="line">  echo &#39;true&#39;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>allow_url_include(是否允许包含远程文件)：在该配置为on的情况下，可以直接包含远程文件，当存在include(<code>$var</code>)且$var可控的情况下，可以直接控制$var变量来执行PHP代码。allow_url_include在PHP5.2.0后默认设置为off，配置范围为PHP_INI_ALL。与之类似的配置有allow_url_fopen，配置是否允许打开远程文件，但安全隐患没有前者大。<br> 代码实例：(实验环境php5.2.17，payload：a=<a target="_blank" rel="external nofollow noopener noreferrer" href="http://127.0.0.1/test/info.txt%EF%BC%8Cinfo.txt%E5%86%85%E5%AE%B9%E4%B8%BA%60">http://127.0.0.1:80/test/info.txt，info.txt内容为`</a><?php phpinfo();?>`) <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">include $_GET[&#39;a&#39;];</span><br></pre></td></tr></table></figure></li>
+<li>magic_quotes_gpc（魔术引号自动过滤）：该参数在不存在编码或其他特殊绕过的情况下，可以使很多漏洞无法利用。当该参数被开启时（选项设置为on），会自动在GET、POST、COOKIE变量中的单引号（‘）、双引号（“）、反斜杠（\）及空字符（NULL）的前面加上反斜杠（\），但在PHP5中magic_quotes_gps并不会过滤$_SERVER变量，导致很多类似client-ip、referer一类的漏洞能够利用。PHP5.3之后不推荐使用该参数，PHP5.4之后被取消。在PHP版本小于4.2.3时，配置范围是PHP_INI_ALL;在PHP版本大于4.2.3时，是PHP_INI_PERDIR。<br> 代码实例：(测试?a=1’) <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">echo $_GET[&#39;a&#39;];</span><br></pre></td></tr></table></figure></li>
+<li>magic_quotes_runtime(魔术引号自动过滤)：过滤方式同样为加反斜杠，但和magic_quotes_gpc的处理对象不一样。magic_quotes_runtime只对从数据库或文件中获取的数据进行过滤，magic_quotes_runtime在PHP5.4之后被取消，配置范围是PHP_INI_ALL。但该参数仅对部分函数有作用，某些情况下可以被绕过。<br> 代码实例： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#1.txt</span><br><span class="line">1&#39;2&quot;3\4</span><br><span class="line"></span><br><span class="line">&lt;?php</span><br><span class="line">ini_set(&quot;magic_quotes_runtime&quot;,&quot;1&quot;);</span><br><span class="line">echo file_get_contents(&quot;1.txt&quot;);</span><br></pre></td></tr></table></figure></li>
+<li>magic_quotes_sybase(魔术引号自动过滤)：用于自动过滤特殊字符，当设置为on时，会覆盖magic_quotes_gpc=on的配置（使gpc=on失效）。与gpc的共同点是处理对象一致（GET、POST、Cookie)，但该参数仅转义空字符以及把单引号变成双引号，使用率比gpc低。配置范围为PHP_INI_ALL，在PHP5.4.0中移除。（代码实例与gpc相同）</li>
+<li>safe_mode（安全模式）：是PHP内嵌的一种安全机制，配置范围为PHP_INI_SYSTEM，PHP5.4之后被取消（取消原因是，PHP开发者认为在PHP语言机制上试图解决安全问题是一件不合适的事情，虽然safe_mode在一定程度上对共享主机有效，但同时也带来了不少误报，与其在PHP上解决权限安全问题，不如使用linux默认的权限限制机制或其它层级的解决办法）。该参数效果为，所有文件操作函数都会受到限制，非文件所有者不能对该文件进行操作（如include()），如果有一些脚本文件放在非Web服务启动用户所有的目录下，需要利用include等函数进行加载，可以使用safe_mode_include_dir来配置可包含的路径。此外，通过函数popen()、system()以及exec()等函数执行命令或程序会提示错误，如果需要使用外部脚本，可以集中存放，然后用safe_node_exec_dir来指向存放目录。<br> 代码实例： <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># echo &#96;whoami&#96;; 执行命令失败的回显提示</span><br><span class="line">Warning: shell_exec() [function, shell_exec]: Cannot execute using backquotes in Safe Mode ...</span><br></pre></td></tr></table></figure></li>
+<li>open_basedir（PHP可访问目录）：用于限制PHP只能访问哪些目录，通常只需要设置Web文件目录即可，如果需要加载外部脚本，也需要把所在路径加入该指令中，多个目录以分号分割。需要注意，指定限制实际上是前缀而不是目录名，如配置open_basedir=/www/a，那么/www/a和/www/ab都可以访问，所以为了避免该现象发生，需要用斜线结束路径名，如/www/a/。当参数激活，执行脚本访问其它文件时都需要验证文件路径，所以会影响执行效率。该指令配置范围在PHP&lt;5.2.3时是PHP_INI_SYSTEM，在PHP&gt;=5.2.3时是PHP_INI_ALL。</li>
+<li>disable_functions(禁用函数)：使用该指令来禁止敏感函数的使用，使用本指令时，需把dl()函数也添加进禁用列表，否则攻击者可以利用dl()函数价值自定义的PHP扩展突破该指令的限制。指令范围为php.ini，配置禁用函数时使用逗号分割函数名。</li>
+<li>display_errors和error_reporting错误显示：display_errors用于表明是否显示PHP脚本内部错误，生产环境中建议关闭，在开启时，可以通过设置error_reporting来设置错误显示的级别。配置范围均为PHP_INI_ALL。</li>
+</ol>
+<h3 id="审计辅助与漏洞验证工具"><a href="#审计辅助与漏洞验证工具" class="headerlink" title="审计辅助与漏洞验证工具"></a>审计辅助与漏洞验证工具</h3><h4 id="代码编辑器"><a href="#代码编辑器" class="headerlink" title="代码编辑器"></a>代码编辑器</h4><ol>
+<li>Notepad++</li>
+<li>UltraEdit（文件对比）</li>
+<li>Zend Studio（PHP集成开发环境）</li>
+</ol>
+<h4 id="代码审计工具"><a href="#代码审计工具" class="headerlink" title="代码审计工具"></a>代码审计工具</h4><ol>
+<li>Seay源代码审计系统</li>
+<li>RIPS</li>
+</ol>
+<h4 id="漏洞验证辅助"><a href="#漏洞验证辅助" class="headerlink" title="漏洞验证辅助"></a>漏洞验证辅助</h4><ol>
+<li>Burp</li>
+<li>浏览器扩展：Hackbar, Firebug, Live HTTP Headers, Modify</li>
+<li>编码转换及加解密工具：Seay代码审计系统自带的编码功能，Burp自带的decoder，超级加解密转换工具</li>
+<li>正则调试工具：Seay自带的正则调试功能，灵者正则调试</li>
+<li>SQL执行监控工具：Seay mysql监控</li>
+</ol>
+<h2 id="漏洞发现与防范"><a href="#漏洞发现与防范" class="headerlink" title="漏洞发现与防范"></a>漏洞发现与防范</h2><h3 id="通用代码审计思路"><a href="#通用代码审计思路" class="headerlink" title="通用代码审计思路"></a>通用代码审计思路</h3><h4 id="敏感函数回溯参数过程"><a href="#敏感函数回溯参数过程" class="headerlink" title="敏感函数回溯参数过程"></a>敏感函数回溯参数过程</h4><p>根据敏感函数来逆向追踪参数的传递过程，使用较多，因为大多数漏洞都是由于函数使用不当造成的。非函数使用不当的漏洞，如SQL注入，也有一些特征，如Select、Incert等，结合From和Where等关键字判断是否为一条SQL语句，通过对字符串的识别分析，就能判断该SQL语句参数有没有使用单引号过滤，或者根据经验判断。如HTTP头里面的HTTP_CLIENT_IP和HTTP_X_FORWORDFOR等获取到的IP地址常直接拼接到SQL语句中，且由于它们是存在于<code>$_SERVER</code>变量中不受GPC的影响，那么就可以查找这两个参数关键字快速寻找漏洞。<br>该方法的优点是定向挖掘、高效、高质量，缺点是对整体框架了解不够深入，定位利用点会花费时间，另外无法覆盖逻辑漏洞。</p>
+<h4 id="通读全文代码"><a href="#通读全文代码" class="headerlink" title="通读全文代码"></a>通读全文代码</h4><p>在企业中做自身产品代码审计时，我们需要了解整个应用的业务逻辑以获取更多漏洞。<br>通读全文代码时，首先要看程序的大体代码结构，如主目录有哪些文件，模块目录有哪些文件，插件目录有哪些文件，还要注意文件大小、创建时间。根据文件命名可大致了解该程序实现哪些功能，核心文件是哪些。<br>在看程序目录结构时，要特别注意以下几个文件：</p>
+<ol>
+<li><code>函数集文件</code>，通常命名中包含functions或者common等关键字，这些文件内是一些公共函数，提供给其它文件统一调用，所以大多数文件会在文件头包含其它文件。寻找这些文件的一个技巧就是打开index.php或一些功能性文件，在头部一般都能找到。</li>
+<li><code>配置文件</code>，通常命名中包含config关键字，包括Web程序运行必须的功能性配置选项及数据库等配置信息，从该文件中可以了解程序的小部分功能，另外看这个文件时注意观察配置文件中参数值是用单引号还是双引号，如果是双引号，则很可能存在代码执行漏洞。（如利用PHP可变变量（$$a）的特性执行代码，ref：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.cnblogs.com/Cl0ud/p/12336834.html%EF%BC%89">https://www.cnblogs.com/Cl0ud/p/12336834.html）</a></li>
+<li><code>安全过滤文件</code>，该文件关系到挖掘到的可疑点能否利用，通常命名中有filter、safe、check等关键字。这类文件主要作用是针对参数进行过滤，比较常见的是针对SQL注入和XSS过滤，还有文件路径、执行的系统命令的参数，其它相对少见。而目前大多数应用会在程序入口循环对所有参数使用addslashes()进行过滤。</li>
+</ol>
 
             </div>
         
@@ -542,9 +593,9 @@
 <nav id="article-nav">
     
     
-        <a href="/wiki/WP-Bugku-Reverse/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/wiki/%E8%AF%95%E7%8E%A9Game-of-hacks/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Older</strong>
-            <div class="article-nav-title">WP-Bugku-Reverse</div>
+            <div class="article-nav-title">Game of hacks 试玩</div>
         </a>
     
 </nav>
